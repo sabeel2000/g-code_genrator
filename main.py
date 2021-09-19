@@ -30,7 +30,7 @@ def button(name, x, y, shape, fun, title):
 
 def close(x,y):
     a.write('\nG00 G40 X0.0 Y0.0 M09;\nG00 Z0.0 M06;\nM30;\n%')
-    print('Press the code button on the top and \nclick on g_code to view your code')
+    print('click on g_code on right hand window to view your code')
     screen.bye()
 
 
